@@ -4,6 +4,7 @@
 $mysql_host="localhost";
 $mysql_user="root";
 $mysql_password="123";
+$mysql_db_Name="twitter";
 
 
 /*Aplicacion twitter*/
