@@ -8,7 +8,7 @@
 	<body>
 		<div style="color:#333;line-height:17px;padding:15px;position:Absolute;">
 			<p>
-			<Center><h1>Karakuri-Twitter<h1><Center>
+			<Center><h1>Karakuri<h1><Center>
 			<font size=1>	cesar Darinel Ortiz</font> 
 			</p>
 		</div>
@@ -20,7 +20,7 @@
 		<script type="text/javascript"> 
 			$(document).ready(function(){
 				$('#background').smartBackgroundResize({
-					image: 'http://www.hdwallpapers.in/walls/humanoid_robot-wide.jpg' // relative or absolute path to background image file				
+					image: 'http://img05.deviantart.net/3031/i/2014/041/e/d/sfondi_tecnologia_hd_013_by_undeadofficial-d75vz9z.jpg' // relative or absolute path to background image file				
 				});
 			});
 		</script>
