@@ -1,11 +1,14 @@
-karakuri-twitter
+#karakuri
 ================
- + Uno
- + Dos
- + Tres
- 
-Inicio del proyecto twitter boot...
-
-
-Nuevo O.o
+ + 
+##Inicio del proyecto del boot...
+1. Trabajando twitter 
+2. facebook
+3. telegram
+4. whatsapp
+5. instagram
 ================
+
+Link del proyecto :
+     http://karakuriapp.herokuapp.com/
+
