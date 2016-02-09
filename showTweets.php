@@ -60,7 +60,8 @@ class Twitter{
         for($i=0; $i<$num_items; $i++){
 
             $user = json_decode($json[$i], true);
-            
+
+          
             $fecha = $user->created_at;
             $url_imagen = $user->user->profile_image_url;
             $screen_name = $user->user->screen_name;
