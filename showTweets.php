@@ -49,8 +49,9 @@ class Twitter{
         $json =  $twitter->setGetfield($getfield)
                      ->buildOauth($url, $requestMethod)
                      ->performRequest();
+        
+        print_r($json);
         return $json;
-
     }
 
     function getArrayTweets($jsonraw){
@@ -61,7 +62,7 @@ class Twitter{
 
             $user = json_decode($json[$i], true);
 
-          
+
             $fecha = $user->created_at;
             $url_imagen = $user->user->profile_image_url;
             $screen_name = $user->user->screen_name;
@@ -111,7 +112,7 @@ class Twitter{
 
 $twitterObject = new Twitter();
 $jsonraw =  $twitterObject->getTweets("alex_esquiva");
-$rawdata =  $twitterObject->getArrayTweets($jsonraw);
-$twitterObject->displayTable($rawdata);
+//$rawdata =  $twitterObject->getArrayTweets($jsonraw);
+//$twitterObject->displayTable($rawdata);
 
 ?>
